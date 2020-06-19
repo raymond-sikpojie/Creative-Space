@@ -134,6 +134,10 @@ a.underline:hover:before {
   margin: 1em 2em;
 }
 
+.intro ul {
+  list-style: none;
+}
+
 /* Pricing */
 .pricing {
   min-height: 100vh;
