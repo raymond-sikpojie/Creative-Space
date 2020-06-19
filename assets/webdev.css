@@ -55,12 +55,17 @@ h2.heading:before {
   height: 8px;
   bottom: 0;
   left: 0;
-  /* left: 25%;
-  right: 25%; */
   background-color: #fc5185;
   visibility: visible;
   transform: scaleX(1);
   transition: all 0.3s ease-in-out;
+}
+
+/* Style icons */
+.icon {
+  width: 100px;
+  height: 150px;
+  margin-top: 2em;
 }
 
 /* Underline animation for links with "underline" class */
@@ -83,13 +88,6 @@ a.underline:before {
 a.underline:hover:before {
   visibility: visible;
   width: 100%;
-}
-
-/* Style icons */
-.icon {
-  width: 100px;
-  height: 150px;
-  margin-top: 2em;
 }
 
 /* Start */
@@ -193,10 +191,6 @@ a.underline:hover:before {
   text-align: center;
   min-height: 40vh;
   /* border: 1px solid grey; */
-}
-
-.pricing .price {
-  /* font-size: 1.1em; */
 }
 
 .pricing .box-1 {
