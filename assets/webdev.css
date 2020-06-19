@@ -454,7 +454,7 @@ input[type="submit"]:hover {
     align-items: center;
     text-align: center;
     padding: 2em;
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .footer-main .social a {
@@ -488,8 +488,8 @@ input[type="submit"]:hover {
 
   .pricing p {
     margin: 1em;
-    font-size: 1em;
-    line-height: 1em;
+    font-size: 1.17em;
+    /* line-height: 1em; */
   }
 
   .pricing .box-1 {

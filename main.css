@@ -19,7 +19,7 @@ h3,
 label,
 li {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  /* font-weight: 100; */
 }
 
 /* Smooth scroll */
@@ -126,6 +126,7 @@ h2.heading:before {
 
 .about .box-1 h3 {
   margin-top: 2em;
+  font-family: "Comfortaa", cursive;
 }
 
 .about .box-1 img {
@@ -206,7 +207,7 @@ h2.heading:before {
 }
 
 .services .main-box h3 {
-  margin: 1em;
+  /* margin: 1em; */
   /* font-family: "Montserrat", sans-serif; */
   font-weight: 600;
 }
@@ -291,7 +292,7 @@ h2.heading:before {
 .clientele p,
 .clientele li {
   transform: skewY(4deg);
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .clientele h3 {
@@ -404,7 +405,6 @@ input[type="submit"]:hover {
   align-items: center;
   justify-content: center;
   padding: 2em;
-
   font-family: "Merriweather", serif;
 }
 
@@ -426,7 +426,8 @@ input[type="submit"]:hover {
   color: #fc5185;
 }
 
-@media screen and (max-width: 1100px) {
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)  */
+@media screen and (max-width: 900px) {
   /* All Headings */
   h2.heading {
     font-size: 1.9em;
@@ -467,40 +468,38 @@ input[type="submit"]:hover {
   .about div {
     margin: 10px 30px;
     padding: 20px;
-    min-height: 75vh;
+    /* min-height: 75vh; */
+    /* background-color: lightblue; */
   }
 
   .about div:nth-child(1) {
     width: 80%;
+    height: 40vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
+    justify-content: center;
   }
 
+  /* Box 2 */
   .about div:nth-child(2) {
     width: 80%;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* text-align: left; */
   }
 
-  /* Box 1 */
   .about .box-1 h3 {
-    font-family: "Merriweather", serif;
-    font-size: 1.2em;
+    font-family: "Comfortaa", cursive;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 2em;
   }
 
   .about .box-1 img {
-    width: 95%;
-    height: 80%;
-  }
-
-  /* Box 2 */
-  .about .box-2 {
-    min-height: 100vh;
+    width: 70%;
+    height: 70%;
   }
 
   .about .box-2 button {
@@ -510,6 +509,8 @@ input[type="submit"]:hover {
   .about .box-2 h2 {
     font-family: "Comfortaa", cursive;
     font-size: 1.5em;
+
+    margin-top: 0;
   }
 
   .about .box-2 p {
@@ -530,18 +531,19 @@ input[type="submit"]:hover {
     padding: 1em;
     width: 90vw;
     min-height: 50vh;
-    /* font-size: 1.1em; */
+    font-size: 0.84em;
   }
 
   .services .main-box .box-1,
   .services .main-box .box-2,
   .services .main-box .box-3 {
-    min-height: 100vh;
-    border: 1px solid rgb(168, 167, 167);
+    min-height: 70vh;
+    border: 1px solid #eaeaea;
   }
 
   .services .main-box h3 {
     margin: 0.5em;
+    font-size: 1.8em;
   }
 
   .services .main-box p {
@@ -567,14 +569,16 @@ input[type="submit"]:hover {
 
   .clientele .box-1,
   .clientele .box-2 {
-    margin-top: 5em;
+    /* margin-top: 5em; */
+
     /* min-width: 100vw;
   min-height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4em 3em;
+    /* padding: 4em 3em; */
+    padding: 1em;
   }
 
   .clientele .box-2 {
@@ -595,10 +599,41 @@ input[type="submit"]:hover {
     color: #fc5185;
   }
 
+  .clientele h3 {
+    font-size: 1.6em;
+    /* font-weight: 600; */
+  }
+
+  .clientele .sub-heading {
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  .clientele p {
+    line-height: 2em;
+  }
+
   /* Choose us */
   .choose-us .main-div {
     display: flex;
     flex-direction: column;
+  }
+
+  .choose-us .icon {
+    width: 80px;
+    height: 150px;
+    margin-top: 1em;
+  }
+
+  .choose-us .main-div {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    min-height: 50vh;
+    width: 80vw;
+    text-align: center; */
   }
 
   /* Contact */
@@ -611,13 +646,14 @@ input[type="submit"]:hover {
   }
 
   .contact h3 {
-    font-size: 1.5em;
+    margin: 0;
+    font-size: 1.3em;
     text-align: left;
   }
 
   .contact .form {
     width: 80vw;
-    margin: 2em;
+    margin: 1em;
   }
 
   .footer-main {
@@ -641,5 +677,17 @@ input[type="submit"]:hover {
   .footer-main .title {
     margin-top: 1em;
     /* font-size: 1em; */
+  }
+}
+
+/* Portrait and Landscape | Smaller devices iphone 6 - 8 */
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)  */
+@media screen and (min-width: 300px) and (max-width: 667px) {
+  .about div:nth-child(1) {
+  }
+
+  .about div:nth-child(2) {
+    /* background-color: red; */
+    /* min-height: 100vh; */
   }
 }
