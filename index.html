@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="nav3.css" />
     <link rel="stylesheet" href="main.css" />
     <!-- Bootstrap -->
     <link
@@ -34,7 +34,63 @@
   </head>
   <body>
     <!-- Navbar Start -->
-    <nav>
+
+    <!-- <header class="kad-header">
+      <div class="kad-mobile-container">
+        <div class="kad-header-logo">
+          <a class="kad-link" href="#" title="kadnavbar"
+            >Creative Space Studios</a
+          >
+        </div>
+
+        <div class="kad-menu-button">
+          <div class="kad-menu-bar kad-menu-bar-one"></div>
+          <div class="kad-menu-bar kad-menu-bar-two"></div>
+          <div class="kad-menu-bar kad-menu-bar-three"></div>
+        </div>
+      </div>
+
+      <nav class="kad-nav">
+        <ul class="kad-nav-list">
+          <li class="kad-nav-list-item">
+            <a class="kad-link kad-list-link" href="#home">Home</a>
+          </li>
+          <li class="kad-nav-list-item">
+            <a class="kad-link kad-list-link" href="./assets/about.html"
+              >About</a
+            >
+          </li>
+          <li class="kad-nav-list-item">
+           
+            <div class="dropdown">
+             
+              <a class="kad-list-link dropbtn" href="#services"></a>
+                Services
+              </p>
+              <div class="dropdown-content">
+                <a class="kad-list-link" href="./assets/webdev.html"
+                  >Web Development</a
+                >
+                <a class="kad-list-link" href="./assets/brand-identity.html"
+                  >Branding & Identity</a
+                >
+                <a class="kad-list-link" href="./assets/creative-services.html"
+                  >Creative Services</a
+                >
+              </div>
+            </div>
+          </li>
+
+          <li class="kad-nav-list-item">
+            <a class="kad-link kad-list-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+  
+      </nav>
+    </header> -->
+
+    <!-- <nav>
       <div class="topnav" id="myTopnav">
         <div class="title">Creative Space Studios</div>
         <ul>
@@ -58,10 +114,66 @@
           <i class="fas fa-times times"></i>
         </span>
       </div>
-    </nav>
+    </nav> -->
     <!-- Navbar End -->
 
     <!-- Home Start-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Creative Space Studios</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav uo-list">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./assets/webdev.html"
+                >Web Development</a
+              >
+              <a class="dropdown-item" href="./assets/brand-identity.html"
+                >Branding & Identity</a
+              >
+              <a class="dropdown-item" href="./assets/creative-services.html"
+                >Creative Services</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <section>
       <div class="home" id="home">
         <h2
@@ -426,6 +538,6 @@
     <!-- Animate on Scroll -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <!-- Main Script -->
-    <script src="nav.js"></script>
+    <script src="file.js"></script>
   </body>
 </html>

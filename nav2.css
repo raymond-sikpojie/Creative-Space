@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+/* Style the dropdown button */
+/* Dropdown Button */
+.dropbtn {
+  /* background-color: #4caf50; */
+  background-color: transparent;
+  color: #f5f5f5;
+  /* padding: 16px; */
+  /* font-size: 16px; */
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5f5f5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* styling the "service" link */
+.dropdown a:hover {
+  /* color: white; */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f5f5f5;
+  color: #fc5185;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* show dropdown menu on click */
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+} */
+
+/************ Main Header Styles ************/
+
+.kad-header {
+  background-color: black;
+  /*header backgroung color can be replaced with color of choice*/
+  color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  /* margin: 0; */
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  padding: 1.25rem;
+  /* position: relative; */
+}
+
+.kad-header-logo {
+  display: inline-block;
+  font-size: 1.25rem;
+  /* margin: 0; */
+}
+
+.kad-link {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+.kad-link:hover {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.kad-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Style links */
+.kad-nav a:hover {
+  text-decoration: none;
+}
+
+/* .kid-nav .dropbtn {
+  cursor: pointer;
+  color: red;
+} */
+
+.kad-nav-list {
+  margin: 0;
+  padding-left: 0px;
+}
+
+.kad-nav-list-item {
+  list-style: none;
+  float: left;
+  padding: 0 20px;
+}
+
+/* .kad-nav-list-item .dropbtn:hover {
+  cursor: pointer;
+} */
+
+.kad-list-link {
+  font-size: 1rem;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+/* links on hover */
+.kad-list-link:hover {
+  color: #fc5185;
+}
+
+.kad-menu-button {
+  display: inline-block;
+}
+
+/************ Extra buttons/icons at the right ************/
+
+/* .kad-nav-extras {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: absolute;
+  right: 2%;
+} */
+
+.kad-nav-button {
+  background-color: transparent;
+  border: 1px solid #f5f5f5;
+  color: #f5f5f5;
+  border-radius: 100px;
+  padding: 0.5rem 0.9rem;
+  margin: 0 0 0 20px;
+}
+
+.kad-nav-button:hover {
+  background-color: rgb(2, 158, 2);
+  border: 1px solid rgb(2, 158, 2);
+  color: white;
+}
+
+.kad-nav-button a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.kad-nav-button a:hover {
+  color: #f5f5f5;
+}
+
+.kad-nav-extras .kad-nav-icons a {
+  color: #e4dcdc;
+  padding: 0 5px;
+}
+
+.kad-nav-extras .kad-nav-icons a:hover {
+  color: #bababa;
+}
+
+/************ Mobile Header ************/
+
+@media (max-width: 982px) {
+  .kad-header {
+    display: block;
+    padding: 0px;
+  }
+
+  .kad-mobile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  /* keep the toggle button to the right */
+  .kad-menu-button {
+    margin-right: 0;
+  }
+
+  .kad-header-logo {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+
+  .kad-nav {
+    display: none;
+    position: static;
+    text-align: center;
+  }
+
+  .kad-nav-extras {
+    display: block;
+    position: static;
+    padding: 2% 0;
+  }
+
+  .kad-nav-button {
+    margin: 0 0 0 0;
+  }
+
+  .kad-nav-extras .kad-nav-icons {
+    padding: 20px 5px 0;
+  }
+
+  /**** Nav Animation ****/
+
+  .toggle-kad-nav {
+    display: block;
+    padding: 0 0 20px;
+  }
+
+  .kad-nav-list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .kad-nav-list-item {
+    list-style: none;
+    float: none;
+    padding: 2% 5%;
+  }
+
+  .kad-menu-bar {
+    /* background-color: #dedcdc; */
+    background-color: #f5f5f5;
+    width: 1.5rem;
+    height: 2px;
+    margin: 4px 0;
+    padding: 0;
+  }
+
+  /**** Menu Button Animation ****/
+
+  .hide-bar-two {
+    animation: bar-hide 1s linear forwards;
+  }
+
+  @keyframes bar-hide {
+    0% {
+      width: 0px;
+      height: 0px;
+    }
+
+    100% {
+      width: 0px;
+      height: 0px;
+    }
+  }
+
+  .cross-bar-one {
+    animation: bar-cross-left 0.5s linear forwards;
+  }
+
+  @keyframes bar-cross-left {
+    10% {
+      transform: rotate(45deg) translate(4px, 4px);
+    }
+
+    50% {
+      transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    100% {
+      transform: rotate(45deg) translate(3px, 2px);
+    }
+  }
+
+  .cross-bar-three {
+    animation: bar-cross-right 0.5s linear forwards;
+  }
+
+  @keyframes bar-cross-right {
+    10% {
+      transform: rotate(-45deg);
+    }
+
+    60% {
+      transform: rotate(-45deg) translate(-3px, 3px);
+    }
+
+    100% {
+      transform: rotate(-45deg) translate(1px, -2px);
+    }
+  }
+}
+
+/************ Transparent Header ************/
+
+.kad-header-transparent {
+  background-color: transparent;
+  color: #2d2e33;
+}
+
+.kad-header-transparent .kad-link {
+  color: #2d2e33;
+}
+
+.kad-header-transparent .kad-list-link:hover {
+  color: #6a6b70;
+}
+
+.kad-header-transparent .kad-menu-bar {
+  background-color: #2d2e33;
+}
+
+.kad-header-transparent .kad-nav-button {
+  background-color: transparent;
+  border: 1px solid #2d2e33;
+  color: #2d2e33;
+  border-radius: 100px;
+}
+
+.kad-header-transparent .kad-nav-button:hover {
+  background-color: rgb(2, 158, 2);
+  border: 1px solid rgb(2, 158, 2);
+  color: white;
+}
+
+.kad-header-transparent .kad-nav-extras .kad-nav-icons a {
+  color: grey;
+}
+
+.kad-header-transparent .kad-nav-extras .kad-nav-icons a:hover {
+  color: #2d2e33;
+}
+
+.kad-header-transparent .kad-nav-button a {
+  color: #2d2e33;
+  text-decoration: none;
+}
+
+.kad-header-transparent .kad-nav-button a:hover {
+  color: white;
+}
