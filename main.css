@@ -48,8 +48,6 @@ h2.heading:before {
 /* Section 1 */
 .home {
   min-height: 90vh;
-  /* margin-top: 3em; */
-  position: static;
   background-image: url("./img/background5.svg");
   background-attachment: fixed;
   background-size: cover;
