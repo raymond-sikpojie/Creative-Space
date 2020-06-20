@@ -127,6 +127,7 @@ a.underline:hover:before {
   text-align: left;
   margin-top: 2em;
   margin-left: 1.7em;
+  font-size: 1.17em;
 }
 
 .intro li {
@@ -202,6 +203,10 @@ a.underline:hover:before {
   width: 60%;
 }
 
+.pricing h3 {
+  font-size: 1.17em;
+}
+
 .pricing p {
   margin: 1em;
   font-size: 1.1em;
@@ -247,12 +252,13 @@ hr {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /* background-color: red; */
 }
 
 .ecommerce .plans .basic,
 .ecommerce .plans .enterprise {
   width: 40vw;
-  min-height: 80vh;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -267,6 +273,10 @@ hr {
 
 .ecommerce .plans .enterprise {
   background-color: #f7fbfc;
+}
+
+.ecommerce h3 {
+  font-size: 1.17em;
 }
 
 .ecommerce .basic .title {
