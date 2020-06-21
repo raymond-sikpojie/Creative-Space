@@ -104,7 +104,7 @@ a.underline:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../img/background7.svg");
+  background-image: url("./img/background7.svg");
   background-attachment: fixed;
   background-size: cover;
   /* background: rgb(255, 111, 60);
