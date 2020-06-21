@@ -7,10 +7,6 @@ const app = express();
 app.use(express.json({ extended: false }));
 app.use(cors());
 
-app.get("/", (req, res) => {
-  res.send("Just Testing Things Out");
-});
-
 // Set up nodemailer
 const sendMail = (msg) => {
   let transporter = nodemailer.createTransport({
