@@ -51,7 +51,7 @@ h2.heading:before {
 /* Section 1 */
 .home {
   min-height: 90vh;
-  background-image: url("./img/background5.svg");
+  background-image: url("../img/background5.svg");
   background-attachment: fixed;
   background-size: cover;
   display: flex;
@@ -238,7 +238,7 @@ h2.heading:before {
   display: flex;
   flex-direction: column;
   /* background-color: #364f6b; */
-  background-image: url("./img/polkadots.svg");
+  background-image: url("../img/polkadots.svg");
   background-attachment: fixed;
   background-size: cover;
 }
