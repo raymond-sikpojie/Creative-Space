@@ -1,38 +1,45 @@
-const icon = document.querySelector(".icon");
-const navbar = document.querySelector(".topnav");
+const form = document.querySelector(".form");
+const userName = document.querySelector("#fname");
+const userEmail = document.querySelector("#email");
+const userNumber = document.querySelector("#number");
+const userMessage = document.querySelector("#subject");
 
-const changeIcons = () => {
-  if (navbar.classList.contains("responsive")) {
-    document.querySelector(".bars").style = "display: none";
-    document.querySelector(".times").style = "display: block";
-  } else {
-    document.querySelector(".bars").style = "display: block";
-    document.querySelector(".times").style = "display: none";
+// Make post request
+const postUser = async (data = {}) => {
+  const response = await fetch("http://localhost:5000", {
+    method: "POST",
+    credentials: "same-origin",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  });
+  try {
+    const responseData = await response.json();
+    if ((response.status = 200)) {
+      alert(responseData.msg);
+    }
+  } catch (error) {
+    console.log(error.message);
   }
 };
 
-// On mobile view, activate toggler
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  // Collect form data
+  let user = {
+    name: userName.value,
+    email: userEmail.value,
+    number: userNumber.value,
+    message: userMessage.value,
+  };
 
-// icon.addEventListener("click", (e) => {
-//   if (navbar.className === "topnav") {
-//     navbar.className += " responsive";
-//   } else {
-//     navbar.className = "topnav";
-//   }
-//   changeIcons();
-// });
-
-//  When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar
-// var prevScrollpos = window.pageYOffset;
-// window.onscroll = function () {
-//   var currentScrollPos = window.pageYOffset;
-//   if (prevScrollpos > currentScrollPos) {
-//     navbar.style.top = "0";
-//   } else {
-//     navbar.style.top = "-8vh";
-//   }
-//   prevScrollpos = currentScrollPos;
-// };
+  postUser(user);
+  (userName.value = ""),
+    (userEmail.value = ""),
+    (userNumber.value = ""),
+    (userMessage.value = "");
+});
 
 // Initialize Animate on Scroll
 AOS.init();
