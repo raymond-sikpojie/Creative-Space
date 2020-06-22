@@ -25,7 +25,7 @@ const sendMail = (msg) => {
   let message = {
     from: "raymondomon@gmail.com",
     to: "raymondomon@yahoo.com",
-    subject: "Hello, from the other side",
+    subject: "New customer enquiry",
     text: `${msg}`,
     // html: "<p>HTML version of the message</p>"
   };
@@ -38,9 +38,6 @@ const sendMail = (msg) => {
     }
   });
 };
-// sendMail();
-
-// set up array ot hold data
 
 const data = [];
 
@@ -50,8 +47,6 @@ app.post("/", (req, res) => {
   const { name, email, number, message } = req.body;
   const userInfo = `Message from ${name}, with email ${email} and phone number ${number}. Message: ${message}`;
   sendMail(userInfo);
-
-  // console.log(userInfo);
 });
 
 // Set up server
