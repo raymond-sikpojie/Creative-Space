@@ -43,3 +43,5 @@ form.addEventListener("submit", (e) => {
 
 // Initialize Animate on Scroll
 AOS.init();
+
+console.log("heyy");

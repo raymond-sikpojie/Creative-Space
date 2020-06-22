@@ -1,5 +1,4 @@
 const express = require("express");
-const path = require("path");
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 
@@ -10,12 +9,6 @@ app.use(cors());
 
 // Specify which directory from which to load static files
 app.use(express.static("assets"));
-// app.get("*", (req, res) => {
-//   res.sendFile(path.resolve(__dirname, "assets", "index.html"));
-// });
-
-const route = __dirname;
-console.log(route);
 
 // Set up nodemailer
 const sendMail = (msg) => {
