@@ -371,7 +371,6 @@ input[type="submit"] {
   font-size: 1.2em;
   background-color: #364f6b;
   color: white;
-  width: 150px;
   padding: 10px;
   font-family: "Montserrat", sans-serif;
   transition: background-color 0.4s, color 0.4s;
