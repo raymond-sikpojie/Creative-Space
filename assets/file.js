@@ -1,3 +1,5 @@
+AOS.init();
+
 // const form = document.querySelector(".form");
 // const userName = document.querySelector("#fname");
 // const userEmail = document.querySelector("#email");
@@ -42,4 +44,3 @@
 // });
 
 // Initialize Animate on Scroll
-AOS.init();
