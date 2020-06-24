@@ -180,6 +180,7 @@ h2.heading:before {
 
 .services .main-box div {
   display: flex;
+
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -188,6 +189,9 @@ h2.heading:before {
   width: 30%;
   height: 60vh;
   text-align: center;
+
+  -webkit-box-shadow: 1px 1px 11px 3px rgba(216, 216, 216, 0.98);
+  box-shadow: 1px 1px 11px 3px rgba(216, 216, 216, 0.98);
 }
 
 .services .main-box img {
@@ -533,7 +537,7 @@ input[type="submit"]:hover {
   .services .main-box .box-3,
   .services .main-box .box-4 {
     min-height: 70vh;
-    border: 1px solid #eaeaea;
+    /* border: 1px solid #eaeaea; */
   }
 
   .services .main-box h3 {
