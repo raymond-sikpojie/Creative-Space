@@ -531,7 +531,8 @@ input[type="submit"]:hover {
 
   .services .main-box .box-1,
   .services .main-box .box-2,
-  .services .main-box .box-3 {
+  .services .main-box .box-3,
+  .services .main-box .box-4 {
     min-height: 70vh;
     border: 1px solid #eaeaea;
   }
