@@ -117,6 +117,7 @@ h2.heading:before {
 .about .box-1 h3 {
   margin-top: 2em;
   font-family: "Comfortaa", cursive;
+  text-align: center;
 }
 
 .about .box-1 img {

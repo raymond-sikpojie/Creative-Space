@@ -221,12 +221,13 @@ a.underline:hover:before {
 
 /* Landing page */
 .pricing .landing .box-1 {
-  background-color: #eaffd0;
+  /* background-color: #eaffd0; */
+  background-color: #bbece4;
 }
 
 /* Blog site */
 .pricing .blog .box-1 {
-  background-color: #d4f1ec;
+  background-color: #a6d4c7;
 }
 
 hr {
