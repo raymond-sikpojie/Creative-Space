@@ -16,6 +16,10 @@
   font-size: 1.3em;
 }
 
+.navbar-collapse {
+  background-color: black;
+}
+
 /* Style the dropdown links */
 .dropdown a:active {
   color: #fc5185;
