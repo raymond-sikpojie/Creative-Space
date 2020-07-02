@@ -124,7 +124,7 @@ a.underline:hover:before {
 }
 
 .intro h3 {
-  font-weight: 600;
+  font-weight: 900;
   text-align: left;
   margin-top: 2em;
   margin-left: 1.7em;
@@ -206,6 +206,7 @@ a.underline:hover:before {
 
 .pricing h3 {
   font-size: 1.17em;
+  font-weight: 600;
 }
 
 .pricing p {
