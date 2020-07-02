@@ -1,9 +1,15 @@
 /* The following changes apply when in mobile view */
 
 .navbar {
-  /* height: 10vh; */
+  height: 12vh;
   background-color: #000000;
   font-size: 1.3em;
+}
+
+/* Resize the logo */
+.navbar a img {
+  /* height: 100px;
+  width: 100px; */
 }
 
 .dropdown .dropdown-menu a {
