@@ -248,7 +248,7 @@ input[type="submit"]:hover {
   /* Home */
 
   .home {
-    min-height: 30vh;
+    min-height: 100vh;
   }
 
   .home h2 {
