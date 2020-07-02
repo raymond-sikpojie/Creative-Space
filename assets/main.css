@@ -123,6 +123,7 @@ h2.heading:before {
 .about .box-1 img {
   width: 70%;
   height: 70%;
+  /* object-fit: cover; */
 }
 
 .about .box-2 h2 {
@@ -181,7 +182,6 @@ h2.heading:before {
 
 .services .main-box div {
   display: flex;
-
   flex-direction: column;
   align-items: center;
   justify-content: space-between;

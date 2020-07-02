@@ -140,8 +140,27 @@ a.underline:hover:before {
   margin: 1em 2em;
 }
 
-.intro ul {
-  list-style: none;
+/* Services */
+.services {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: #1f1d1a;
+  background-image: url("img/confetti.svg");
+  background-attachment: fixed;
+}
+
+.services ul {
+  list-style-type: circle;
+}
+
+.services ul li {
+  font-size: 1.5em;
+
+  /* text-align: center; */
+  margin-left: 4em;
 }
 
 /* Pricing */
@@ -434,6 +453,14 @@ input[type="submit"]:hover {
 
   .intro a:active {
     color: #fc5185;
+  }
+
+  /* Services */
+  .services {
+    min-height: 60vh;
+  }
+  .services ul li {
+    font-size: 1em;
   }
 
   /* Pricing */
