@@ -293,6 +293,10 @@ h2.heading:before {
   margin-top: 1em;
 }
 
+.clientele li {
+  list-style-type: square;
+}
+
 .clientele h3 {
   font-size: 2em;
   font-weight: 600;
