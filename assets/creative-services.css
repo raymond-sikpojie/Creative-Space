@@ -99,7 +99,7 @@ a.underline:hover:before {
 
 /* Start */
 .home {
-  min-height: 100vh;
+  min-height: 88vh;
   background-attachment: fixed;
   background-size: cover;
   display: flex;
