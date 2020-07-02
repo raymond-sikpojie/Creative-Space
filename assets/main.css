@@ -56,13 +56,16 @@ h2.heading:before {
 /* Section 1 */
 .home {
   min-height: 90vh;
-  background-image: url("img/background5.svg");
+  /* background-image: url("img/background5.svg"); */
   background-attachment: fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background-image: url("./img/sun-tornado.svg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .home .main-heading {
@@ -192,13 +195,17 @@ h2.heading:before {
   justify-content: space-between;
   margin: 0em 10px;
   padding: 1em;
-  width: 22%;
+  /* width: 22%; */
+  width: 25%;
   height: 65vh;
   text-align: center;
-
   -webkit-box-shadow: 1px 1px 11px 3px rgba(216, 216, 216, 0.98);
   box-shadow: 1px 1px 11px 3px rgba(216, 216, 216, 0.98);
 }
+
+/* .services .main-box div:hover {
+  width: 70vh;
+} */
 
 .services .main-box img {
   width: 30%;
@@ -681,11 +688,4 @@ input[type="submit"]:hover {
 /* Portrait and Landscape | Smaller devices iphone 6 - 8 */
 /* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)  */
 @media screen and (min-width: 300px) and (max-width: 667px) {
-  .about div:nth-child(1) {
-  }
-
-  .about div:nth-child(2) {
-    /* background-color: red; */
-    /* min-height: 100vh; */
-  }
 }
