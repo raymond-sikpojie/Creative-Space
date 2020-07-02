@@ -18,8 +18,9 @@ nav {
   /* font-weight: 100; */
 }
 
-p {
-  font-weight: 600;
+p,
+li {
+  font-weight: 500;
 }
 
 /* Smooth scroll */
