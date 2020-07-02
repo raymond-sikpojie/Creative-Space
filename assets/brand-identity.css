@@ -161,7 +161,7 @@ a.underline:hover:before {
 }
 
 .services ul li {
-  font-size: 1.7em;
+  font-size: 1.5em;
 
   /* text-align: center; */
   margin-left: 4em;
@@ -462,7 +462,7 @@ input[type="submit"]:hover {
     min-height: 60vh;
   }
   .services ul li {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   /* Pricing */
