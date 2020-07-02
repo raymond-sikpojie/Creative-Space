@@ -107,12 +107,6 @@ a.underline:hover:before {
   background-image: url("./img/background7.svg");
   background-attachment: fixed;
   background-size: cover;
-  /* background: rgb(255, 111, 60);
-  background: linear-gradient(
-    69deg,
-    rgba(255, 111, 60, 1) 0%,
-    rgba(230, 28, 93, 1) 100%
-  ); */
 }
 
 .home h2 {
@@ -248,7 +242,7 @@ input[type="submit"]:hover {
   /* Home */
 
   .home {
-    min-height: 95vh;
+    min-height: 90vh;
   }
 
   .home h2 {
