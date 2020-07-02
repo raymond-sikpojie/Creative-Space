@@ -63,7 +63,7 @@ h2.heading:before {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-image: url("./img/sun-tornado-copy.svg");
+  background-image: url("https://res.cloudinary.com/ds57wvvno/image/upload/v1593701876/Creative%20Space%20Studio/sun-tornado_dluokg.svg");
   background-attachment: fixed;
   background-size: cover;
 }
