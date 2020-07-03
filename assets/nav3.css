@@ -1,7 +1,7 @@
 /* The following changes apply when in mobile view */
 
 .navbar {
-  height: 12vh;
+  /* height: 12vh; */
   background-color: #000000;
   font-size: 1.3em;
 }
