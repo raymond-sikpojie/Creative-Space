@@ -701,6 +701,6 @@ input[type="submit"]:hover {
     width: 90vw;
     height: 80vh;
     font-size: 0.84em;
-    background-color: red;
+    /* background-color: red; */
   }
 }
