@@ -184,7 +184,7 @@ textarea {
 input[type="submit"] {
   margin-top: 2em;
   font-size: 1.2em;
-  background-color: #364f6b;
+  background-color: #000000;
   color: white;
   padding: 10px;
   font-family: "Montserrat", sans-serif;
@@ -196,7 +196,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: transparent;
   color: #fc5185;
-  /* border: 1px solid #364f6b; */
+  border: 1px solid black;
 }
 
 /* Footer */
