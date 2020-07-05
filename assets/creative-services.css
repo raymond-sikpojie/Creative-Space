@@ -124,7 +124,7 @@ a.underline:hover:before {
   flex-direction: column;
 }
 
-.intro h3 {
+.intro h3:not(:nth-child(2)) {
   font-weight: 600;
   text-align: left;
   margin-top: 2em;
