@@ -687,7 +687,7 @@ input[type="submit"]:hover {
 
 /* Portrait and Landscape | Smaller devices iphone 6 - 8 */
 /* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)  */
-@media screen and (min-width: 400px) and (max-width: 667px) {
+@media screen and (min-width: 375px) and (max-width: 667px) {
   .about div {
     margin: 3em 30px;
     padding: 20px;
