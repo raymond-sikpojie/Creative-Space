@@ -55,7 +55,7 @@ h2.heading:before {
 
 /* Section 1 */
 .home {
-  height: 85vh;
+  height: 60vh;
   /* background-image: url("img/background5.svg"); */
   background-attachment: fixed;
   background-size: cover;
@@ -85,7 +85,7 @@ h2.heading:before {
 
 /* Arrow icon */
 .home .fa-long-arrow-alt-down {
-  margin-top: 3em;
+  margin-top: 1em;
   font-size: 3em;
   color: #f5f5f5;
   cursor: pointer;

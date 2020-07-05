@@ -2,16 +2,18 @@
 
 .navbar {
   /* height: 12vh; */
-  background-color: #000000;
+  background-color: white;
   font-size: 1.3em;
 }
 
 .dropdown .dropdown-menu a {
   font-size: 1.3em;
+  margin-top: 1em;
+  color: #fc5185;
 }
 
 .navbar-collapse {
-  background-color: black;
+  background-color: white;
 }
 
 /* Style the dropdown links */
