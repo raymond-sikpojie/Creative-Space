@@ -98,11 +98,11 @@ a.underline:hover:before {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(63, 193, 201);
+  background: rgb(217, 32, 39);
   background: linear-gradient(
-    69deg,
-    rgba(63, 193, 201, 1) 0%,
-    rgba(166, 227, 233, 1) 100%
+    90deg,
+    rgba(217, 32, 39, 1) 0%,
+    rgba(181, 7, 107, 1) 51%
   );
 }
 
