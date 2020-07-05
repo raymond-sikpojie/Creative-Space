@@ -687,5 +687,20 @@ input[type="submit"]:hover {
 
 /* Portrait and Landscape | Smaller devices iphone 6 - 8 */
 /* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)  */
-@media screen and (min-width: 300px) and (max-width: 667px) {
+@media screen and (min-width: 400px) and (max-width: 667px) {
+  .about div {
+    margin: 3em 30px;
+    padding: 20px;
+    /* min-height: 75vh; */
+    /* background-color: lightblue; */
+  }
+
+  .services .main-box div {
+    margin: 1em 10px;
+    padding: 1em;
+    width: 90vw;
+    height: 80vh;
+    font-size: 0.84em;
+    background-color: red;
+  }
 }
