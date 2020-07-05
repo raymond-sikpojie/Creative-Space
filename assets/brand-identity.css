@@ -134,10 +134,8 @@ a.underline:hover:before {
   line-height: 1.5em;
 }
 
-.intro h3:nth-child(2) {
-  /* font-weight: 500; */
-
-  /* color: red; */
+.intro h3:not(:nth-child(2)) {
+  color: #fc5185;
 }
 
 .intro p {
@@ -366,7 +364,8 @@ textarea {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  border-radius: 10px;
+  /* resize: vertical; Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 input[type="submit"] {

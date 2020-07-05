@@ -130,6 +130,7 @@ a.underline:hover:before {
   margin-top: 2em;
   margin-left: 1.7em;
   font-size: 1.17em;
+  color: #fc5185;
 }
 
 .intro p {
@@ -176,7 +177,8 @@ textarea {
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  border-radius: 10px;
+  /* resize: vertical; Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 input[type="submit"] {
