@@ -307,6 +307,7 @@ h2.heading:before {
 .clientele h3 {
   font-size: 2em;
   font-weight: 600;
+  color: #fc5185;
 }
 
 .clientele .sub-heading {
@@ -436,7 +437,7 @@ input[type="submit"]:hover {
 
 /* @media only screen and (min-device-width: 375px) and 
 (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3)  */
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 375px) and (max-width: 900px) {
   /* All Headings */
   h2.heading {
     font-size: 1.9em;
@@ -691,7 +692,7 @@ input[type="submit"]:hover {
   .about div {
     margin: 3em 30px;
     padding: 20px;
-    /* min-height: 75vh; */
+    /* min-height: 80vh; */
     /* background-color: lightblue; */
   }
 
