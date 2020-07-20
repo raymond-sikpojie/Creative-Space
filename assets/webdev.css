@@ -288,6 +288,15 @@ hr {
   font-weight: 600;
 }
 
+.ecommerce h3:nth-child(2) {
+  font-size: 1.1em;
+}
+
+.ecommerce p {
+  margin: 1em;
+  font-size: 1.1em;
+}
+
 .ecommerce .basic .title {
   background-color: #f09771c4;
   padding: 1em;
