@@ -159,6 +159,10 @@ a.underline:hover:before {
   align-items: center;
   justify-content: center;
   margin-bottom: 4em;
+  /* background-color: #eaeed2; */
+  background-image: url("../assets/img/pricingbackground.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .pricing h2 {
@@ -190,9 +194,9 @@ a.underline:hover:before {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2em;
+  padding: 1em;
   text-align: center;
-  min-height: 40vh;
+  min-height: 53vh;
   /* border: 1px solid grey; */
 }
 
@@ -225,12 +229,12 @@ a.underline:hover:before {
 /* Landing page */
 .pricing .landing .box-1 {
   /* background-color: #eaffd0; */
-  background-color: #bbece4;
+  background-color: #f0ece3;
 }
 
 /* Blog site */
 .pricing .blog .box-1 {
-  background-color: #a6d4c7;
+  background-color: #dfd3c3;
 }
 
 hr {
