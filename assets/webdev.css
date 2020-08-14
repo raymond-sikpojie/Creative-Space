@@ -215,6 +215,10 @@ a.underline:hover:before {
   font-weight: 600;
 }
 
+.pricing h5 {
+  font-weight: 900;
+}
+
 .pricing p {
   margin: 1em;
   font-size: 1em;
@@ -253,6 +257,10 @@ hr {
   font-size: 1.5em;
   margin-top: 2em;
   margin-bottom: 2em;
+  font-weight: 900;
+}
+
+.ecommerce h5 {
   font-weight: 900;
 }
 
