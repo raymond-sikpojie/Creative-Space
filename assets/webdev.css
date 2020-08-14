@@ -508,20 +508,22 @@ input[type="submit"]:hover {
 
   .pricing .box-1,
   .pricing .box-2 {
-    width: 80%;
+    width: 95%;
   }
 
   .pricing p {
     margin: 1em;
     font-size: 1.17em;
-    /* line-height: 1em; */
+    /* border: 1px solid rgba(0, 0, 0, 0.295); */
+    background-color: #e0ece44b;
+    /* text-align: left; */
+    border-radius: 5px;
+    padding: 1em;
   }
 
-  .pricing .box-1 {
-    min-height: 25vh;
-  }
+  .pricing .box-1,
   .pricing .box-2 {
-    min-height: 40vh;
+    height: auto;
   }
 
   .pricing .features {
@@ -548,8 +550,17 @@ input[type="submit"]:hover {
 
   .ecommerce .plans .basic,
   .ecommerce .plans .enterprise {
-    width: 80vw;
-    min-height: 85vh;
+    width: 90vw;
+    height: auto;
+    margin: 0;
+    margin-bottom: 2em;
+  }
+
+  .ecommerce .plans p {
+    background-color: #e0ece44b;
+    /* text-align: left; */
+    border-radius: 5px;
+    padding: 1em;
   }
 
   .ecommerce .description {
