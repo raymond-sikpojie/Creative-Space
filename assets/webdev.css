@@ -158,11 +158,12 @@ a.underline:hover:before {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 4em;
+  /* margin-bottom: 4em; */
   /* background-color: #eaeed2; */
-  background-image: url("../assets/img/pricingbackground.jpg");
+  /* background-image: url("../assets/img/pricingbackground.jpg");
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+  /* background-color: whitesmoke; */
 }
 
 .pricing h2 {
@@ -196,7 +197,7 @@ a.underline:hover:before {
   align-items: center;
   padding: 1em;
   text-align: center;
-  min-height: 53vh;
+  height: 70vh;
   /* border: 1px solid grey; */
 }
 
@@ -210,13 +211,13 @@ a.underline:hover:before {
 }
 
 .pricing h3 {
-  font-size: 1.17em;
+  font-size: 1.1em;
   font-weight: 600;
 }
 
 .pricing p {
   margin: 1em;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .pricing .features {
@@ -268,6 +269,7 @@ hr {
   width: 40vw;
   height: 110vh;
   display: flex;
+
   flex-direction: column;
   text-align: center;
   margin: 2em;
@@ -289,12 +291,12 @@ hr {
 }
 
 .ecommerce h3:nth-child(2) {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .ecommerce p {
   margin: 1em;
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 
 .ecommerce .basic .title {
