@@ -586,11 +586,6 @@ input[type="submit"]:hover {
     margin-bottom: 2em;
   }
 
-  img {
-    width: 10px;
-    height: 10px;
-  }
-
   .ecommerce .plans p {
     background-color: #e0ece44b;
     border-radius: 5px;
