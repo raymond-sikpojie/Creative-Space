@@ -266,16 +266,20 @@ hr {
 
 .ecommerce .plans {
   display: flex;
+  /* flex-wrap: wrap; */
   flex-direction: row;
   justify-content: center;
   align-items: center;
   /* background-color: red; */
 }
-
+.ecommerce .plans .lite,
 .ecommerce .plans .basic,
+.ecommerce .plans .standard,
 .ecommerce .plans .enterprise {
-  width: 40vw;
-  height: 110vh;
+  /* width: 40vw;
+  height: 110vh; */
+  width: 20vw;
+  height: 120vh;
   display: flex;
 
   flex-direction: column;
@@ -285,12 +289,12 @@ hr {
   border: 1px solid #eaeaea;
 }
 
-.ecommerce .plans .basic {
-  background-color: #f7fbfc;
-}
-
+.ecommerce .plans .lite,
+.ecommerce .plans .basic,
+.ecommerce .plans .standard,
 .ecommerce .plans .enterprise {
-  background-color: #f7fbfc;
+  /* background-color: #f7f2e7; */
+  background-color: #f2f8e649;
 }
 
 .ecommerce h3 {
@@ -302,12 +306,28 @@ hr {
   font-size: 1em;
 }
 
-.ecommerce p {
+.ecommerce .plans p {
   margin: 1em;
   font-size: 0.9em;
 }
 
+.ecommerce .lite .title {
+  background-color: #fdcb9e;
+  padding: 1em;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
 .ecommerce .basic .title {
+  background-color: #fee2b3;
+  padding: 1em;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+.ecommerce .standard .title {
   background-color: #f09771c4;
   padding: 1em;
   width: 100%;
@@ -556,7 +576,9 @@ input[type="submit"]:hover {
     align-items: center;
   }
 
+  .ecommerce .plans .lite,
   .ecommerce .plans .basic,
+  .ecommerce .plans .standard,
   .ecommerce .plans .enterprise {
     width: 90vw;
     height: auto;
@@ -564,20 +586,24 @@ input[type="submit"]:hover {
     margin-bottom: 2em;
   }
 
+  img {
+    width: 10px;
+    height: 10px;
+  }
+
   .ecommerce .plans p {
     background-color: #e0ece44b;
-    /* text-align: left; */
     border-radius: 5px;
     padding: 1em;
   }
 
-  .ecommerce .description {
+  /* .ecommerce .description {
     margin-top: 2em;
     font-size: 1em;
     line-height: 2em;
     padding: 1.2em;
-    /* text-align: center; */
-  }
+   
+  } */
 
   .ecommerce .features {
     margin-top: 3em;
