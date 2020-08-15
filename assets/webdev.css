@@ -251,7 +251,6 @@ hr {
   min-height: 130vh;
   display: flex;
   flex-direction: column;
-  width: 80vw;
 }
 
 .ecommerce .ecommerce-title {
