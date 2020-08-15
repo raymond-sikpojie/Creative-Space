@@ -540,7 +540,7 @@ input[type="submit"]:hover {
   }
 
   .pricing p {
-    margin: 1em;
+    margin: 0.9em;
     font-size: 1.17em;
     /* border: 1px solid rgba(0, 0, 0, 0.295); */
     background-color: #e0ece44b;
