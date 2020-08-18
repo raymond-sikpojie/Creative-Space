@@ -479,10 +479,13 @@ input[type="submit"]:hover {
   }
 
   /* Home */
+  .home {
+    background-image: url("./img/background7.svg");
+  }
+
   .home .main-heading {
     margin-top: 4em;
     font-size: 1.8em;
-    color: #fc5185;
   }
 
   .home .sub-heading {
