@@ -482,6 +482,7 @@ input[type="submit"]:hover {
   .home .main-heading {
     margin-top: 4em;
     font-size: 1.8em;
+    color: black;
   }
 
   .home .sub-heading {
