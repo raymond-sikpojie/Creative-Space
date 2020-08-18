@@ -493,6 +493,11 @@ input[type="submit"]:hover {
     font-size: 1.4em;
   }
 
+  .home .contact-btn {
+    background-color: #f5f5f5;
+    color: black;
+  }
+
   .home .fa-long-arrow-alt-down {
     transition: none;
   }
